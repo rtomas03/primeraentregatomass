@@ -1,0 +1,383 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 100%;
+    clear: both;
+    display: table;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+} 
+h1{
+    float: left;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
+
+ul li{ 
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+}
+.barra{
+    float: right;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(5, 35, 88); 
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+ font-family: 'Montserrat', sans-serif;
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ background-color: whitesmoke;
+ }
+    
+
+header{
+    color: black;
+    background-color:whitesmoke 
+}
+.btn-menu:hover{
+    color: rgb(12, 81, 247);
+}
+    
+.principal{
+    color: whitesmoke;
+    background-color:rgb(5, 35, 88); 
+    width:  auto;
+    text-align: center;
+}
+.img1{
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.img2{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.img3{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.title1{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn{
+    text-decoration: none;
+    font-size: x-large;
+    border-radius: 3px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3)
+}
+.btn-blue{
+    color: white;
+    background-color:rgb(36, 125, 240)
+}
+.btn-blue:hover{ 
+    background-color:rgb(24, 82, 185) ;
+}
+.btn-blue:active{
+    background-color:rgb(23, 43, 79)
+}
+.contenido1{
+    background-color: whitesmoke;
+    height: 400px;
+    margin: 3px;
+}
+.bloque1{
+    display: table-cell;
+    padding: 25px;
+}
+.titulobloque1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color:rgb(5, 35, 88);
+}
+.parrafobloque1{
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    height: 80px;
+    background-color:rgb(5, 35, 88); 
+    width: auto;
+
+}
+.socialmedia{
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px; 
+}
+.btnsocial{
+    background-color: rgb(5, 35, 88);
+    color: rgb(131, 8, 100);
+    padding: 15px;
+    margin: 15px;
+    font-size: 30px;
+}
+.btnsocial:hover{
+    color: rgba(233, 59, 190, 0.918);
+}
+.btnfacebook{
+    background-color: rgb(5, 35, 88);
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    font-size: 30px;
+}
+.btnfacebook:hover{
+    color: rgba(70, 124, 243, 0.918);
+}
+.btntwitter{
+    background-color: rgb(5, 35, 88);
+    color: rgb(17, 139, 238);
+    padding: 15px;
+    margin: 15px;
+    font-size: 30px;
+}
+.btntwitter:hover{
+    color: rgba(18, 22, 32, 0.918);
+}
+.btnlinkid{
+    background-color: rgb(5, 35, 88);
+    color: rgb(82, 84, 88);
+    padding: 15px;
+    margin: 15px;
+    font-size: 30px;
+}
+.btnlinkid:hover{ 
+    color: rgba(42, 49, 70, 0.918);
+}
+
+.btnfooter{ 
+    background-color: rgb(5, 35, 88);
+    background-position: 25px 60px;
+    color: white;
+    text-transform: uppercase;
+    font-size: medium;
+   margin: 15px 30px;
+   border-radius: 10px;
+   border-style: double;
+   border-color: white;
+}
+.btnfooter:hover{
+    background-color: rgb(10, 95, 245);
+}
+.bloque2{
+    height: 800px;
+    color: rgb(5, 35, 88);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.titulobloque2{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(5, 35, 88); 
+    color:white; 
+    margin-top: 40px;
+    height: 60px;
+    width: auto;
+    font-size: xx-large;
+}
+
+.derecha { 
+    background-color: whitesmoke;
+     height: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left:  50px;
+}
+.izquierda{
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 50%;
+    text-align: center;
+}
+.titulonosotros{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    font-style: bold;
+}
+.btnservicio{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: x-large;
+    border-radius: 3px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    color: white;
+    background-color:rgb(36, 125, 240)
+}
+.btnservicio:hover{
+    background-color: rgb(10, 95, 245);
+}
+.btnservicio:active{
+    background-color:rgb(23, 43, 79)
+}
+.bloque3{
+    height: 800px;
+    color: rgb(5, 35, 88);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+    text-align: center;
+    
+    
+}
+.titulo-bloque3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.contenido-bloque3{
+    text-align: center;
+    height: 80px;
+    margin: 50px;
+    margin-bottom: 150px; 
+    padding: 30px
+}
+
+
+
+.botonbloque3{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.btn-empresa{
+    text-decoration: none;
+    font-size: x-large;
+    border-radius: 3px;
+    padding: 10px 25px;
+    display: inline-flex;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    color: white;
+    background-color:rgb(36, 125, 240)
+}
+.btn-empresa:hover{
+    background-color: rgb(10, 95, 245);
+}
+.bloque4{
+    height: 800px;
+    color: rgb(5, 35, 88);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.contenido-bloque4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+
+}
+.btn-perfil{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    border-radius: 3px;
+    padding: 10px 25px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    color: white;
+    background-color:rgb(36, 125, 240);
+    margin: 40%
+}
+.btn-perfil:hover{
+    background-color: rgb(10, 95, 245);
+}
+.contactoimagen{
+    box-shadow: 15px 20px 35px rgba(5, 35, 88, 0.89); 
+}
+.formulario{
+    width: 400px;
+    background-color:whitesmoke;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    
+    
+}
+.control-formulario{
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: rgb(5, 35, 88); 
+    border-style:double;
+    border-radius: 10px;
+    border-color:rgb(5, 35, 88); 
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+}
+#btn-formulario1{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-right: 15px;
+    margin-left: 30px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    color: white;
+    background-color:rgb(23, 43, 79);
+    cursor: pointer;
+}
+#btn-formulario1:hover{
+    background-color: rgb(10, 95, 245);
+}
+#btn-formulario1:active{
+    background-color:rgb(5, 61, 163)
+}
+#btn-formulario2{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-left: 20px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    color: white;
+    background-color:rgb(23, 43, 79);
+    cursor: pointer;
+}
+#btn-formulario2:hover{
+    background-color: rgb(10, 95, 245);
+}
+#btn-formulario2:active{
+    background-color:rgb(5, 61, 163)
+}
+
